@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Fifteen puzzle</string>
+    <string name="StartGame">Start new game</string>
+    <string name="Settings">Settings</string>
+    <string name="volume">Sound On</string>
+    <string name="field_size">Field size</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="game_rules">Game Rules</string>
+    <string name="textrules">
+        To win the game you should move numbered pieces
+        to empty positions by tapping or swiping to obtain ordered blocks.
+        Winning position is one to highest value with empty blocks in the end.
+    </string>
+    <string name="taptocontinue">You win! Tap here</string>
+    <string name="backButton">Back</string>
+    <string name="resume_game">RESUME GAME</string>
+    <string name="back">Back</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="back_to_main_menu">Back to main menu</string>
+    <string name="reset_scores">Reset scores</string>
+    <string name="best_scores">Best scores</string>
+    <string name="todo">TODO</string>
+    <string name="rules">rules</string>
+
+</resources>

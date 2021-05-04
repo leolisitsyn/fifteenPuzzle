@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.foxliss.fifteen">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/number15"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MenuAct">
+        <activity
+            android:name="com.foxliss.fifteen.BestScoresMain"
+            android:exported="true"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name="com.foxliss.fifteen.BestScores"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <!-- Sample AdMob App ID banner: ca-app-pub-3940256099942544/6300978111-->
+        <!-- Sample AdMob App ID inter: ca-app-pub-3940256099942544/1033173712-->
+
+        <!-- мой баннер ca-app-pub-9434973627187830/7492267972 -->
+        <!-- мой межстраничный баннер ca-app-pub-9434973627187830/1103981266 -->
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9434973627187830~7492267972" />
+
+        <activity
+            android:name="com.foxliss.fifteen.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.foxliss.fifteen.SettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.foxliss.fifteen.RulesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.foxliss.fifteen.GameActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
